@@ -1,0 +1,27 @@
+#include <stdio.h>
+int main()
+{
+
+    char a ;
+    printf("Enter the input character: ") ;
+    scanf("%c" , &a) ;
+    switch(a){
+    case 'a':
+     printf("The input character is a \n") ;
+     break ;
+
+    case 'b':
+     printf("The input character is b \n") ;
+     break ;
+
+    case 'c':
+     printf("The input character is c \n") ;
+     break ;
+
+    default:
+        printf("The character is unknown \n");
+
+    }
+
+    return 0 ;
+}
