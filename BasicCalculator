@@ -1,0 +1,43 @@
+#include <stdio.h>
+int main()
+{
+    int a,b,r ;
+    char Operator ;
+    printf("Enter first number: ") ;
+    scanf("%d",&a) ;
+    printf("Enter second number: ") ;
+    scanf("%d",&b) ;
+    printf("Enter the operator you want to perform: ") ;
+    scanf(" %c",&Operator) ;
+    switch(Operator){
+    case '+':
+        r = a + b ;
+        printf("The sum is: %d\n",r) ;
+        break ;
+    case '-':
+        r = a - b ;
+        printf("The sub is: %d\n",r) ;
+        break ;
+    case '*':
+        r = a * b ;
+        printf("The mul is: %d\n",r) ;
+        break ;
+    case '/':
+        r = a / b ;
+        printf("The div is: %d\n",r) ;
+        break ;
+    case '%':
+        r = a % b ;
+        printf("The mod is: %d\n",r) ;
+        break ;
+    default:
+        printf("Operator not found") ;
+
+
+    }
+
+
+
+
+    return 0 ;
+}
